@@ -37,7 +37,7 @@
 
             if (string.IsNullOrEmpty(sendMessageRequest.MessageBody))
             {
-                throw new AmazonClientException("MessageBody cannone be null or empty");
+                throw new AmazonClientException("MessageBody cannot be null or empty");
             }
 
             if (!clientConfiguration.IsLargePayloadSupportEnabled)
